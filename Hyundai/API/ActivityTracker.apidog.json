@@ -1,0 +1,2204 @@
+{
+  "apidogProject": "1.0.0",
+  "$schema": {
+    "app": "apidog",
+    "type": "project",
+    "version": "1.2.0"
+  },
+  "info": {
+    "name": "BE-Fei",
+    "description": "",
+    "mockRule": {
+      "rules": [],
+      "enableSystemRule": true
+    }
+  },
+  "projectSetting": {
+    "id": "1218020",
+    "auth": {},
+    "securityScheme": {},
+    "gateway": [],
+    "language": "en-US",
+    "apiStatuses": [
+      "developing",
+      "testing",
+      "released",
+      "deprecated"
+    ],
+    "mockSettings": {},
+    "preProcessors": [],
+    "postProcessors": [],
+    "advancedSettings": {
+      "enableJsonc": true,
+      "enableBigint": false,
+      "responseValidate": true,
+      "enableTestScenarioSetting": false,
+      "enableYAPICompatScript": false,
+      "isDefaultUrlEncoding": 3,
+      "publishedDocUrlRules": {
+        "defaultRule": "SLUGIFY_WITH_RESOURCE_KEY",
+        "resourceKeyStandard": "NEW"
+      },
+      "folderShareExpandModeSettings": {
+        "expandId": [],
+        "mode": "AUTO"
+      }
+    },
+    "initialDisabledMockIds": [],
+    "servers": [
+      {
+        "id": "default",
+        "name": "Default Server",
+        "importSourceServerId": "1318140",
+        "moduleId": 1113425
+      },
+      {
+        "id": "1113426",
+        "name": "Default Server",
+        "moduleId": 1113426
+      },
+      {
+        "id": "1113427",
+        "name": "Default Server",
+        "moduleId": 1113427
+      },
+      {
+        "id": "1113428",
+        "name": "Default Server",
+        "moduleId": 1113428
+      },
+      {
+        "id": "1113429",
+        "name": "Default Server",
+        "moduleId": 1113429
+      },
+      {
+        "id": "1113430",
+        "name": "Default Server",
+        "moduleId": 1113430
+      },
+      {
+        "id": "1113431",
+        "name": "Default Server",
+        "moduleId": 1113431
+      },
+      {
+        "id": "1113432",
+        "name": "Default Server",
+        "moduleId": 1113432
+      },
+      {
+        "id": "1191385",
+        "name": "Default Server",
+        "moduleId": 1191385
+      },
+      {
+        "id": "1270013",
+        "name": "Default Server",
+        "moduleId": 1270013
+      },
+      {
+        "id": "1304734",
+        "name": "Default Server",
+        "moduleId": 1304734
+      },
+      {
+        "id": "1307889",
+        "name": "Default Server",
+        "moduleId": 1307889
+      },
+      {
+        "id": "1308002",
+        "name": "Default Server",
+        "moduleId": 1308002,
+        "importSourceServerId": "1113428"
+      },
+      {
+        "id": "1318140",
+        "name": "Default Server",
+        "moduleId": 1318140
+      },
+      {
+        "id": "1362453",
+        "name": "Default Server",
+        "moduleId": 1362453,
+        "importSourceServerId": "1113428"
+      }
+    ],
+    "cloudMock": {
+      "enable": false,
+      "security": "free",
+      "tokenKey": "apidogToken",
+      "isCreatedAutomaticallyByDefaultConfigFromAdmin": true
+    }
+  },
+  "apiCollection": [
+    {
+      "name": "Root",
+      "id": 9518476,
+      "auth": {
+        "type": "noauth"
+      },
+      "securityScheme": {},
+      "parentId": 0,
+      "serverId": "",
+      "description": "",
+      "identityPattern": {
+        "httpApi": {
+          "type": "methodAndPath",
+          "bodyType": "",
+          "fields": []
+        }
+      },
+      "shareSettings": {},
+      "visibility": "SHARED",
+      "moduleId": 1362453,
+      "preProcessors": [
+        {
+          "id": "inheritProcessors",
+          "type": "inheritProcessors",
+          "data": {}
+        }
+      ],
+      "postProcessors": [
+        {
+          "id": "inheritProcessors",
+          "type": "inheritProcessors",
+          "data": {}
+        }
+      ],
+      "inheritPostProcessors": {},
+      "inheritPreProcessors": {},
+      "items": [
+        {
+          "name": "Activities",
+          "id": 9519088,
+          "auth": {},
+          "securityScheme": {},
+          "parentId": 0,
+          "serverId": "",
+          "description": "",
+          "identityPattern": {
+            "httpApi": {
+              "type": "inherit",
+              "bodyType": "",
+              "fields": []
+            }
+          },
+          "shareSettings": {},
+          "visibility": "INHERITED",
+          "moduleId": 1362453,
+          "preProcessors": [
+            {
+              "id": "inheritProcessors",
+              "type": "inheritProcessors",
+              "data": {}
+            }
+          ],
+          "postProcessors": [
+            {
+              "id": "inheritProcessors",
+              "type": "inheritProcessors",
+              "data": {}
+            }
+          ],
+          "inheritPostProcessors": {},
+          "inheritPreProcessors": {},
+          "items": [
+            {
+              "name": "Create",
+              "api": {
+                "id": "39662947",
+                "method": "post",
+                "path": "/activities",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "143679817",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 201,\r\n    \"message\": \"Successfully created new activity.\",\r\n    \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n    \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\"\r\n}",
+                    "responseId": "143679817"
+                  }
+                ],
+                "requestBody": {
+                  "type": "application/json",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "activity_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "activity_name"
+                    ],
+                    "x-apidog-orders": [
+                      "activity_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "Using UUID in case for QR code usage.",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 6,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Get All",
+              "api": {
+                "id": "39662948",
+                "method": "get",
+                "path": "/activities",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "170004553",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched activities.\",\r\n    \"data\": [\r\n        {\r\n            \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n            \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\",\r\n            \"created_at\": \"2026-07-08 20:54:26\",\r\n            \"deleted_at\": null\r\n        }\r\n    ]\r\n}",
+                    "responseId": "170004553"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 12,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Get One",
+              "api": {
+                "id": "39662950",
+                "method": "get",
+                "path": "/activities/9a3a4d9a-ef11-42f9-b218-a05202608a81",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "167508318",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched selected activity.\",\r\n    \"data\": {\r\n        \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n        \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\",\r\n        \"created_at\": \"2026-07-08 20:54:26\",\r\n        \"deleted_at\": null\r\n    }\r\n}",
+                    "responseId": "167508318"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 24,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Update",
+              "api": {
+                "id": "39662952",
+                "method": "put",
+                "path": "/activities/9a3a4d9a-ef11-42f9-b218-a05202608a81",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "109193983",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully updated selected activity.\"\r\n}",
+                    "responseId": "109193983"
+                  }
+                ],
+                "requestBody": {
+                  "type": "application/json",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "activity_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "activity_name"
+                    ],
+                    "x-apidog-orders": [
+                      "activity_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"activity_name\": \"Game Idup. Ga Ada yang Menang\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 36,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Soft Delete",
+              "api": {
+                "id": "39662953",
+                "method": "delete",
+                "path": "/activities/9a3a4d9a-ef11-42f9-b218-a05202608a81",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "130290432",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Selected activity deleted successfully.\"\r\n}",
+                    "responseId": "130290432"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office (Kembar)\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 42,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Restore Deleted",
+              "api": {
+                "id": "39678485",
+                "method": "put",
+                "path": "/activities/restore/9a3a4d9a-ef11-42f9-b218-a05202608a81",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "130290432",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Selected activity restored successfully.\"\r\n}",
+                    "responseId": "130290432"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office (Kembar)\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 48,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            }
+          ]
+        },
+        {
+          "name": "Activity Records",
+          "id": 9522406,
+          "auth": {},
+          "securityScheme": {},
+          "parentId": 0,
+          "serverId": "",
+          "description": "",
+          "identityPattern": {
+            "httpApi": {
+              "type": "inherit",
+              "bodyType": "",
+              "fields": []
+            }
+          },
+          "shareSettings": {},
+          "visibility": "INHERITED",
+          "moduleId": 1362453,
+          "preProcessors": [
+            {
+              "id": "inheritProcessors",
+              "type": "inheritProcessors",
+              "data": {}
+            }
+          ],
+          "postProcessors": [
+            {
+              "id": "inheritProcessors",
+              "type": "inheritProcessors",
+              "data": {}
+            }
+          ],
+          "inheritPostProcessors": {},
+          "inheritPreProcessors": {},
+          "items": [
+            {
+              "name": "Create",
+              "api": {
+                "id": "39677006",
+                "method": "post",
+                "path": "/activity-records",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "143679817",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 201,\r\n    \"message\": \"Successfully created new activity record.\",\r\n    \"id\": 1,\r\n    \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n    \"full_name\": \"Nailong Kuning\",\r\n    \"email\": \"nailongkuning@dino.com\",\r\n    \"phone_number\": \"+6280123654789\",\r\n    \"time_score\": \"300\",\r\n    \"point_score\": \"2200\",\r\n    \"free_notes\": \"A;B;B;D;C\"\r\n}",
+                    "responseId": "143679817"
+                  }
+                ],
+                "requestBody": {
+                  "type": "application/json",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "activity_id": {
+                        "type": "string"
+                      },
+                      "full_name": {
+                        "description": "optional",
+                        "type": "string"
+                      },
+                      "email": {
+                        "description": "optional",
+                        "type": "string"
+                      },
+                      "phone_number": {
+                        "type": "string",
+                        "description": "optional"
+                      },
+                      "time_score": {
+                        "description": "optional",
+                        "type": "string"
+                      },
+                      "point_score": {
+                        "description": "optional",
+                        "type": "string"
+                      },
+                      "free_notes": {
+                        "description": "optional",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "activity_id",
+                      "full_name",
+                      "email",
+                      "phone_number",
+                      "time_score",
+                      "point_score",
+                      "free_notes"
+                    ],
+                    "x-apidog-orders": [
+                      "activity_id",
+                      "full_name",
+                      "email",
+                      "phone_number",
+                      "time_score",
+                      "point_score",
+                      "free_notes"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\n    \"full_name\": \"Nailong Kuning\", // optional\n    \"email\": \"nailongkuning@dino.com\", // optional\n    \"phone_number\": \"+6280123654789\",\n    \"time_score\": \"300\", // optional\n    \"point_score\": \"2200\", // optional\n    \"free_notes\": \"A;B;B;D;C\" // optional\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "Only activity_id needed. Rest are optional in case like Pertamina Run with input name or something. Free notes can be used for CSV or anything you needed. Except money.",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 0,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Get All",
+              "api": {
+                "id": "39677007",
+                "method": "get",
+                "path": "/activity-records",
+                "parameters": {
+                  "query": [
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "0nFgHIbNpw",
+                      "enable": true,
+                      "name": "start_date",
+                      "example": "2026-07-08 10:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "kLDCy5c17z",
+                      "enable": true,
+                      "name": "end_date",
+                      "example": "2026-07-08 22:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "integer",
+                      "id": "zxq1MvG2bS",
+                      "enable": true,
+                      "name": "page",
+                      "schema": {
+                        "type": "integer"
+                      },
+                      "example": "1"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "integer",
+                      "id": "vM2KlByoEk",
+                      "enable": true,
+                      "name": "limit",
+                      "schema": {
+                        "type": "integer"
+                      },
+                      "example": "5"
+                    }
+                  ],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "170004553",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Plain",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched activity records.\",\r\n    \"data\": {\r\n        \"records\": {\r\n            \"Game Idup. Ga Ada yang Menang\": [\r\n                {\r\n                    \"id\": 2,\r\n                    \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n                    \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n                    \"full_name\": \"Green Snowy\",\r\n                    \"email\": \"nailongkuning@dino.com\",\r\n                    \"phone_number\": \"+6280123654789\",\r\n                    \"time_score\": \"300.00\",\r\n                    \"point_score\": \"2200.00\",\r\n                    \"free_notes\": \"A;B;B;D;C\",\r\n                    \"created_at\": \"2026-07-08 21:25:26\"\r\n                }\r\n            ],\r\n            \"XPENG XPENG HERE WE GO GO GO~\": [\r\n                {\r\n                    \"id\": 1,\r\n                    \"activity_id\": \"649f98a4-595c-4e48-832e-7288a948d515\",\r\n                    \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\",\r\n                    \"full_name\": \"Green Snowy\",\r\n                    \"email\": null,\r\n                    \"phone_number\": null,\r\n                    \"time_score\": null,\r\n                    \"point_score\": null,\r\n                    \"free_notes\": null,\r\n                    \"created_at\": \"2026-07-08 21:19:13\"\r\n                }\r\n            ]\r\n        }\r\n    }\r\n}",
+                    "responseId": "170004553"
+                  },
+                  {
+                    "name": "Complete",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched activity records.\",\r\n    \"data\": {\r\n        \"records\": {\r\n            \"Game Idup. Ga Ada yang Menang\": [\r\n                {\r\n                    \"id\": 2,\r\n                    \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n                    \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n                    \"full_name\": \"Green Snowy\",\r\n                    \"email\": \"nailongkuning@dino.com\",\r\n                    \"phone_number\": \"+6280123654789\",\r\n                    \"time_score\": \"300.00\",\r\n                    \"point_score\": \"2200.00\",\r\n                    \"free_notes\": \"A;B;B;D;C\",\r\n                    \"created_at\": \"2026-07-08 21:25:26\"\r\n                }\r\n            ],\r\n            \"XPENG XPENG HERE WE GO GO GO~\": [\r\n                {\r\n                    \"id\": 1,\r\n                    \"activity_id\": \"649f98a4-595c-4e48-832e-7288a948d515\",\r\n                    \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\",\r\n                    \"full_name\": \"Green Snowy\",\r\n                    \"email\": null,\r\n                    \"phone_number\": null,\r\n                    \"time_score\": null,\r\n                    \"point_score\": null,\r\n                    \"free_notes\": null,\r\n                    \"created_at\": \"2026-07-08 21:19:13\"\r\n                }\r\n            ]\r\n        },\r\n        \"pagination\": {\r\n            \"total_records\": 2,\r\n            \"total_pages\": 1,\r\n            \"current_page\": 1,\r\n            \"limit\": 5\r\n        }\r\n    }\r\n}",
+                    "responseId": "170004553"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 6,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Get One Activity",
+              "api": {
+                "id": "39687326",
+                "method": "get",
+                "path": "/activity-records/activity/9a3a4d9a-ef11-42f9-b218-a05202608a81",
+                "parameters": {
+                  "query": [
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "0nFgHIbNpw",
+                      "enable": true,
+                      "name": "start_date",
+                      "example": "2026-07-08 10:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "kLDCy5c17z",
+                      "enable": true,
+                      "name": "end_date",
+                      "example": "2026-07-08 22:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "integer",
+                      "id": "zxq1MvG2bS",
+                      "enable": true,
+                      "name": "page",
+                      "schema": {
+                        "type": "integer"
+                      },
+                      "example": "1"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "integer",
+                      "id": "vM2KlByoEk",
+                      "enable": true,
+                      "name": "limit",
+                      "schema": {
+                        "type": "integer"
+                      },
+                      "example": "5"
+                    }
+                  ],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "170004553",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Plain",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched records for the selected activity.\",\r\n    \"data\": {\r\n        \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n        \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n        \"records\": [\r\n            {\r\n                \"id\": 2,\r\n                \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n                \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n                \"full_name\": \"Green Snowy\",\r\n                \"email\": \"nailongkuning@dino.com\",\r\n                \"phone_number\": \"+6280123654789\",\r\n                \"time_score\": \"300.00\",\r\n                \"point_score\": \"2200.00\",\r\n                \"free_notes\": \"A;B;B;D;C\",\r\n                \"created_at\": \"2026-07-08 21:25:26\"\r\n            }\r\n        ]\r\n    }\r\n}",
+                    "responseId": "170004553"
+                  },
+                  {
+                    "name": "Complete",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched records for the selected activity.\",\r\n    \"data\": {\r\n        \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n        \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n        \"records\": [\r\n            {\r\n                \"id\": 2,\r\n                \"activity_id\": \"9a3a4d9a-ef11-42f9-b218-a05202608a81\",\r\n                \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n                \"full_name\": \"Green Snowy\",\r\n                \"email\": \"nailongkuning@dino.com\",\r\n                \"phone_number\": \"+6280123654789\",\r\n                \"time_score\": \"300.00\",\r\n                \"point_score\": \"2200.00\",\r\n                \"free_notes\": \"A;B;B;D;C\",\r\n                \"created_at\": \"2026-07-08 21:25:26\"\r\n            }\r\n        ],\r\n        \"pagination\": {\r\n            \"total_records\": 1,\r\n            \"total_pages\": 1,\r\n            \"current_page\": 1,\r\n            \"limit\": 5\r\n        }\r\n    }\r\n}",
+                    "responseId": "170004553"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 9,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Get One",
+              "api": {
+                "id": "39677008",
+                "method": "get",
+                "path": "/activity-records/1",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "167508318",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched selected activity record.\",\r\n    \"data\": {\r\n        \"id\": 1,\r\n        \"activity_id\": \"649f98a4-595c-4e48-832e-7288a948d515\",\r\n        \"full_name\": \"Green Snowy\",\r\n        \"email\": null,\r\n        \"phone_number\": null,\r\n        \"time_score\": null,\r\n        \"point_score\": null,\r\n        \"free_notes\": null,\r\n        \"created_at\": \"2026-07-08 21:19:13\"\r\n    }\r\n}",
+                    "responseId": "167508318"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 18,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Get Summary",
+              "api": {
+                "id": "39679600",
+                "method": "get",
+                "path": "/activity-records/summary",
+                "parameters": {
+                  "query": [
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "VGuc9539kq",
+                      "enable": true,
+                      "name": "start_date",
+                      "example": "2026-07-06 10:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "EINzAk1bYa",
+                      "enable": true,
+                      "name": "end_date",
+                      "example": "2026-08-06 10:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "Top scorer (time ASC, point DESC)",
+                      "type": "integer",
+                      "id": "XoZzLPhUk5",
+                      "enable": true,
+                      "name": "top",
+                      "schema": {
+                        "type": "integer"
+                      },
+                      "example": "1"
+                    }
+                  ],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "170004553",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Plain",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched activity summary.\",\r\n    \"data\": [\r\n        {\r\n            \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n            \"total_count\": 1\r\n        },\r\n        {\r\n            \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\",\r\n            \"total_count\": 1\r\n        }\r\n    ]\r\n}",
+                    "responseId": "170004553"
+                  },
+                  {
+                    "name": "Complete",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully fetched activity summary.\",\r\n    \"data\": [\r\n        {\r\n            \"activity_name\": \"Game Idup. Ga Ada yang Menang\",\r\n            \"total_count\": 1,\r\n            \"top_scorers\": [\r\n                {\r\n                    \"full_name\": \"Green Snowy\",\r\n                    \"email\": \"nailongkuning@dino.com\",\r\n                    \"phone_number\": \"+6280123654789\",\r\n                    \"time_score\": \"300.00\",\r\n                    \"point_score\": \"2200.00\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"activity_name\": \"XPENG XPENG HERE WE GO GO GO~\",\r\n            \"total_count\": 1,\r\n            \"top_scorers\": [\r\n                {\r\n                    \"full_name\": \"Green Snowy\",\r\n                    \"email\": null,\r\n                    \"phone_number\": null,\r\n                    \"time_score\": null,\r\n                    \"point_score\": null\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+                    "responseId": "170004553"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 12,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Export Excel Summary",
+              "api": {
+                "id": "39679638",
+                "method": "get",
+                "path": "/activity-records/summary/export/excel",
+                "parameters": {
+                  "query": [
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "EPSNtu8WRu",
+                      "enable": true,
+                      "name": "start_date",
+                      "example": "2026-07-06 10:00:00"
+                    },
+                    {
+                      "required": false,
+                      "description": "optional",
+                      "type": "string",
+                      "id": "ajpjqxoXPv",
+                      "enable": true,
+                      "name": "end_date",
+                      "example": "2026-07-10 22:00:00"
+                    }
+                  ],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "170004553",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\���\tY\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\u0000\u0000[Content_Types\n].xml��Mn�0\u0010��=E�-J\n]TUE¢��\u0016��\u0000�xB,\u001c�����w\u0012(�* �`\u0013+�7�{��\u0019O��I�\u0018H;��Q6\u0014\t��)m\u0017������\"�\bV�q\u0016s�C\u0012��n<�y���-墎�?IIe�\nP�<Z�T.4\u0010�6,��r\t\u000b�����,��hc\u001a[\u000fQ��X����eˏ�A\u0002\u001a\u0012��^زr\u0001�\u001b\n]B��\\[���\u001e\b\u0019wv\u001a���\u0001\u000b�<Ih+�\u0001��w�L�\n�\u0019��\u0006\n���ȍ\u000b�/���e�\u0013)\n]U�\u0012�+W\n�d�\u0003��\u001a16&�֬\u0001m\u0007��NL�[F7\u000er���\u0011�\n}��z\n}�Φ\u0007Hqg�n=�δ�\\C@�\u0011\u0003\u001f��\u0007��\n}��\n]_I��i�\nS�m����<�\u0011\n��\n]����;�l�!�ˣ=\u0012����b;+��\u0004[v?��\u001bPK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000_rels/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\��I��\u0000\u0000\u0000K\u0002\u0000\u0000\u000b\u0000\u0000\u0000_rels/.rels���N�0\f@�|E���nH\b��� ��&4>�$n\u001b���ă�@\f�i\u0007�q��g���<���R�\u001c\f,�\u001a\u0014\u0005�·����iq\u000f*\u000b\u0006�#\u00072p�\f��f�L#J�ɽ�Y\u0015H�\u0006z���u�=M�+�\u0014�O�iB)����v������t�ɀ愩��@ں%��1�5ln[o���a� gZ��(dL\u001d��y�W��*P��\n]V׻�=��HС���h\u0011S�N��Z�u\u001c�\n]\t�όKB���\u001c���#wY\tc�2�'7�|\u0000PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000xl/PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000xl/_rels/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\�$�V�\u0000\u0000\u0000�\u0002\u0000\u0000\u001a\u0000\u0000\u0000xl/_rels/workbook.xml.rels���j�0\u0010D��\n��ZvZJ)�s)�\\[�\u0003���LlIh7m��U\u001bH\u001c\b�\u0007�Ĭؙ�H���8�OL�\u0007��*J\u0010�M���\u0014|4��g\u0010��[=\u0004�\n&$��w�7\u001c4�\u001dr\n}$�M<)p��EJ2\u000eGME���M\u001bҨ9��ɨ�^w(We�$��\u0003�\u000bO��\n��V �)��C��\u0006_�9���J�$���/\u001a�:d\u0005G\n]d\u001f���WK�s��s��<\u000e�[\f\u000f�V�tB��)?�����\u0016���0_!��!�\u0019�4�E�ǩ\u0019y���\u001fPK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000xl/worksheets/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\\u0001l��1\u0003\u0000\u0000d\u000b\u0000\u0000\u0018\u0000\u0000\u0000xl/worksheets/sheet1.xml�V\n]��0\u0014\n}��`�����0��V�v������s\u0016�f\n�I�����\u0012\u0010!d���!'�\u001e�� f���g։pAY\u0011!w� �\u0014\t��b\u001f��ϛ�9����\u000eg� \u0011z#\u0002=.?-Ό�\u0015\u0007B�\u0005\u0002���A�2�m�\u001cH�ň������\u001cKX��-JN�N\u0005���9���1-P�\u0010��h�4�\t�Yr�I!k\u0011N2,��8�R\\���#r9���C��\u0012$^hF��\u0012EV��_�\u0005��%��_�\tN.�j1��i`�\u001c�\\ct�s`\u00076(-\u0017;\n\u0019TU�8I#���[�A�r��\u001be�\u0007�v$��L�d�/��\u000f\u0012z�#�\u001deF\u000b���H\u0006[\u0011r�؊e\nSN��[LD\u0002����W�HX&ԯ�Ӫ��-~����3��\u0003<�;���,�S\u0003n\u0013V\u0007���q\u001b0v�\n�4\u0001��\u001b�\u000f���i\u001b��oi�\u0004�n�`׹�\"�X�傳��U\u0011D��IvÙ�r�\b\u0004��\u0015��\"�\u0010�\u0010�����>U�\n���a7�J\u0007b\u001dX��F\u0007�\u001d�\u0006ۭw�\u001e��\u0012�:�\n]����zׁX\u0007�:�сm\u0007�y�����ڭv�;I�o%5Q��NR��Ԑ1�3VCƤe�,��8����詻�5ae����������;����\u000b�m�\u000e�:�ց�\u000el;@���#m���|в��Ԑ1�\n=d���x�\b�����j\u0007��@�Z�5P<s��{�\u00144�d���HC��\u001c\u0006��\u0012ߦ�oS6�)[\u0003�7�\t�Q�9՝��X?և�A�L\u001cm,c\u0013G\u001b̵������цsk�x�V/����\u0013�'+�e�Jر��\u0018u��\n}���u�\u000b��\t��p\u0016T��U~�(��|�|O\u000bae$U\n�6��(Pϒ��\t\u000e�\u0017&ᠸ�\u000ep�\"�Z�\u0017�2&/\u000b���E䱴\u0018��hu?�Pɸ��J\b\u0006�\u001f��,.)��\u000b&�t�\u0005�\u000b�aI\u0013Æ\u0000�T3\u0005�L�|f���^^O�*�����\u000fPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\����n\u0001\u0000\u0000�\u0002\u0000\u0000\u0014\u0000\u0000\u0000xl/sharedStrings.xmlm�\n]O� \u0014���\u0015'ܪ�2���V\u0017�s��e�_��\u001e��\u0002�Pu7�vљ��%\u0004�s^�{>��OY�;6��*!a�\b�*tY�eB����\u0001\u0001c�*E�\u0015&d����{�1\u0016�Se\u0012��v=��\u0014+��\u0004z��E^t#�u�fIͺAQ�\u0015��5��ET�J\u0011(t�lBx�@���\u0016��@H��Til�y6���1�iLȖ��\u001a�J��smE\n�Zl\\\u0002;\u0015c!\u0011&e�\u000e`,`T\n�\b'�A�\u000e_�8˦c��W�<��\fƷ����t�O�'�\u0013\\d�hr���\u000b[�Wv��\u001f���Tt�f�LuG�r��i+�����#�E��\u000e���\u0004a;�i\u0010\u0015,���\u0018=�\u0001\u001bP�w���\u0001�p\u0018�\fÞ�Q.\u0003�����jy��J\u0007���j?�\u0003\u0016�^t|�\u001f���\u001ec\u0001c>�|'�L��!��5�\nn�\nPK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000xl/theme/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\v�0�!\u0006\u0000\u0000\u0019\u001f\u0000\u0000\u0013\u0000\u0000\u0000xl/theme/theme1.xml�YMo�6\u0018��W\u0010����R'�SĎ�nm� q;�HK�Ć\u0012\u0005�N���\u001e\u0007\f\u0018�\n�\f�m�a[�\u0016إ�5�:l\u001dп�Wև)�j�&�P 98\"�<�\u0017��%i_�q\u001c2tH��<�X��5\u000b���\u001e���u8�Ҷ�T8�0�\u0011�XS\"�\u001b�\u001f\n]�\u001b* !A@��\u0006�X�R��mK\u0017����c\u0012��1\u0017!V0\u0014��\t|\u0004bCf7j�5;�4�P�C�zo<�.A�D���r�\n}\u0006\u001f���\u0019��\n}w�S��h��>�/���\u0004:Ĭc�.�\u001f\nɱ�\u0010�R���U��Y6��9��*�F\u001d��rjN�\u000e\u001a)U���[\u001f�֯mϵ42-\u0006h�����s�)\u0004�.�\n]_��\u0006�z�����g��^ͩ�\u0016(���2e���:�eJS���)��Zk�Q��4�c����뭕)�FY[�\f����\u0016(),`4:X&$�=_�9h��-3�\n�v�!\u001a��R0�\u0011�ʌ\f�#.\u0006�H�\u001e+\u001a!5��\u0018����p$(�i�\u001b\u0004k��9W.�%\n�t\u0005�U��$�P>s̛�?�y�\u001c�y������ǿ�<yr��\u0017\u0013�\u0016�|����/���3����_?��� u�\u001f?��o_U ��|�ͳ?_<{��\u0017��Ԅ�\u0012x���4$\u0012�%Gh����I\u0005\u0019�3R�\u0001�%\n\u000e\u0000jB�UPBޝbf\u0004vI9�\u000f\u0004�\u000b#���Q���@L\u00145!o\u0007a\t��9�ra��v�N�i\u0012�\u0015��D\u0007�a|hT�[X��$�ܦF����L�e���'\u0011Q(y�\u000f\b1�\u001eRZ��\u000eu\u0005�|��C����\u00033�#efݢ!,��h#�z)B;\u000fP�3��mrX�B�`f\u0014JX)�7�D��l5\u000e�\u000e��U`4t*�RूE�\t���\u0011)��{bZ2�6�6e΀\u001d6\n�P���\u0011z\u0007s�C��A/�al��F�\u000e�X\u001e@�b�˕�\u000e^��d\f\u000b����@�:c�ߧ~`N���D\u0018k��r�N�\u0018�(�\u0004ʽ<��[;;���/;�Bg߂��XQ���\u0012��v�m<�v\tT�e\u0013�l��M�m\u0015�>Z�֬m�ȞJ\n�\u000f�c�ؾ�2rG��^���\u0000f�ьW�\u001a�\u0000\u001es�e�/�l�\u0004W�R\u0015�\u00078\u0006\n        ]�T�/s��D1�pe��\u0015�Wc\n��&��2\u000bx�v���7K��BR:�eI\n    ]3\u0011�����󫬧ؕu֝\n��i:m=�P[\b'_k��\u001a�\u0005�E�\u0011/Y�LH�X�{��5\n        }�\u0002�\u0011Ӽ�k������і��{�\u0010w�P{\n                ,Z\u0018�����4\u001c\u000b�8�Xc8��c\u0018�L�4(���c�*�u��\n            ]�~�\"��5�����XH��e�\u0012g��/z\"͑��J�rQ�\u0018�Ъ�4����\u0016{i��xL\\U5����|���\u000f�#4b\u0013����V�z\u001e��m4����oeYY.���\u0016�N�+\u000b�8�YA���H\t頰#\u001d�F�U>��O�\u000b�ɹ�)��\n            ]8\u00137�ٳ\u000b\u0007\u0005�Q��\u001d�\u000b\u0015ph\n        ]q@݁��E�\u0011�CP:�i�%_�'6�C�ݥR���\u0007j��HPh�*\u0010��������\u001b�\n    ]7\u0017�����2�\u001eF䐰aR�kI0,\u0014��'�J�\\ZH�X�#�\u0001\u001c�Z／�յζ����C�T��o�j����Q�~�y�N����p�A�\u0007�\u0000T�L;'\u000f�\u001ed\u0006*�\u0012\br�J;+�br\u0004��u?\u0013a����\n]�\t\u0017~z��߬���J�\u0013�\u0010~���ۆ����R:\\�q��\u001e�\u0005�p\t��lJ�0̞vE���{���ɴ�d�)6\b\u0016��1��q��\u000bQ�~��\u001f\u0019�2=I(\nns\u0015n��6���X�_p6��i���<�2��?ed\u00190o��ر��Q\\ɓ�(��|�(����\u0014Eu|j\u0014�����$�J�^��\u001e���%���PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\f��V\u001f\u0003\u0000\u0000\u000b\n\u0000\u0000\n\u0000\u0000\u0000xl/styles.xml�Vێ� \u0010\n}�W ޽�$�&Q��٬���U�M��\u0012\u001b;h�X�l�V��\u000e؎��v+U�C��̙3��\u0017�\u000f��;�k�d�ó\u0000#*3�3Y&��&��\u0018ՆȜp%i�������\u0016�9rz��� `�u�w�Ts߯�\u001d\u0015�>S\u0015�0S(-���.��Ҕ��u\u0012܏�`�\u000b�$n\u0018�\"�\u001d\u0012A����2%*bؖqf��\u000b#�ͯJ�4�rPz\b�$C�p��.��\u001e\u0005\u0011,ӪV�9\u0003R_\u0015\u0005��c�3擬g\u0002ڷ1��\u001fDM��E���Q���$8\u0006v�p~+�7��)ؒ�j��\u0014W\u001a\u0019\bE-�\u0003N\u0004�GtGx�#\u000b8!�\u0001\u0004��p��\u0006\b��$��\u0005�l��\u0005�&B��\u001d��_�\u000e��n��r�����L\u0013\n�\n]S�\u0019���4#�\u0000�\u0005캡Z�0@ms�`E$�φ�ٽb\n]jr\f���\u001dj�YnU�\u0017���t<;_;�����5��V�\u001c��K'�\u001d�\\pZ\u0018p׬��֨ʷ���\u0011Z.rFJ%\t�\u0001:��'r��`�����<\u0004��!�\u0004x�>\u0015��@\u0012\u0019���:|-N���y(�܋T��<�p��\n캐~�mh���\u001f�5�\u0003�ɛhѡ8�?�\u001d���HU���?g�F\u001f8+��\n]ʤ\u001b����;��s�\u0001@5���a�\u0000��\u001e��EE���Q/*\u001a�\n_\u0016e�?Z9�%����H���5������T\u001a�P�\u0015�\tE�FO�'�F�\u0001�vϸa���\u0003���ך�5�Ѽ\u001f\u00058rZ�=7��d���G����NV�ٝ2�U߿�\u0017R8�1��\\�Ƶh�Y�\\��g��4���j��G4�f�j�����z�΂(��9x����n\u001f\\ ��\u001c�t�l+���\u0012<\u00184�������Y4\t>�aॣ ��\u00132���Q��q\u0018�'��e��\u0003��\u001b�\u0016\u0002?\f{���0A9�����\u0010�M��\u000bI��N��g��\u0017PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000docProps/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\μVl�\u0001\u0000\u0000#\u0003\u0000\u0000\u0010\u0000\u0000\u0000docProps/app.xml��Ao�0\f���\u0015�n(�@V1�\u001bzX�`I�3'ӱPY\u0012D�H��';���;��H><��n\u000f�+zLd���rQ�\u0002�\t���J<��]}\u0016\u00051�\u001a\\�X�#���\u001f�&���-R�\u0013<U�e�+)ɴ�\u0001-���I\u0013R\u0007�˴��i���`^;�,���F����X_�)P�\u0012W=�oh\u001d��GO�c�yZ}��Y\u0003�R?X�\u0002����\u0007�N��P��-��d��K%���\u001ap����\u0001G��[C�#\f;ۀM�Uϫ\u001e\n�T����v-�_@8�T��d��8�NŨ]$N�9�\u0017j\u0011������{��~��ѐťQN Y_\"�,;�\u001f�\u0006\u0012��x9'\u001e\u0019Č�'Ɛ�\u001d��Ke�C\u0017��\u0005�I=��=\u000e�I}���\u001e�.�\u0001�y×M�m!a�\u001fez����3jr�݂�c}��\u001f\f��t�y��Y�\u001f�r<�sOɷ��\u0000PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\�b7\u0000_\u0001\u0000\u0000�\u0002\u0000\u0000\u0011\u0000\u0000\u0000docProps/core.xml�R�n�0\u0010��+\"߃\u0013�\u0014E!HmũH�\nj՛k/��ؖ�4���<\b�r�mggv�\u000f��c�\u0007?`��jF�AD\u0002P\\\u000b��3�^-�)\t\u001c2%X�\u0015�H\u0005�̳����k\u000b�V\u001b�(�\u0005�H���\u0019�!��R�wP07�\n�ɍ�\u0005C\u000f��\u001a��l\u000bt\u0018E\u0013Z\u00002����04�#�,\u0005�-��捁�\u0014r(@��� �g-�-�͂��P\u0016\u0012+\u00037�'�W\u001f���eY\u000e�Q#����c��֌\u001aJU��\u0003�R�\u0013n����Z��.UJ/r5�\u0012sȚt\u0017��\u001d���c�\u00058n�A���J�s��*�\u0015γW��\u0014C�j[��\u0019y�3�K��\u0004�X�{�K��n�\u0019@\u0004~'I��\u0013�>zz^-H6���0z\b��*\u001e'��d\u001c�=_՟\n���;�\f����e�\u000bPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�v�\\�\n��Z\u0001\u0000\u0000q\u0002\u0000\u0000\u000f\u0000\u0000\u0000xl/workbook.xml��Mo�0\f���\u0015Q��\u0016\u0018l\u0015-ҴM�2�i�=$.�ȗ���?��I\u0013\u0017.q�ď_;Y�NF�\u0003���-i>�(\u0001+�TvW�����\u0013%1q+�v\u0016Jz�HW�����~�ܞ`��%mR�\u0005cQ4`x\u001c;\u000f\u0016Oj\u0017\fO��\u001d�>\u0000��\u0001HF�I�͙���\u000b�\b�0\\]+\u0001�N�\u0006l�@\u0002h�P}l��\u0003͈{p��}�G�\u0019����*�{(%F\u0014��u�o5v}�\u001f\u00072no�F�ࢫ�\u0018QW�7��\u0019��K�ղV\u001a~.S'��\u000fn�*�\u0012�cz�*�,)���\b�\u0002��/���<O�)e��Kl\u0002�P�V�/T5��M��,�)��\t�&�\u0003\u0017g\fw���x��_ײ;#�W�\tޅ�����AE��@\u0015��ka-g\u001d�\n\u0018��@\u0019��1�<�,�\u001b���\u0017PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\���\tY\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000[Content_Types].xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000�\u0001\u0000\u0000_rels/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\��I��\u0000\u0000\u0000K\u0002\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0000\u0000_rels/.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000�\u0002\u0000\u0000xl/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000�\u0002\u0000\u0000xl/_rels/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\�$�V�\u0000\u0000\u0000�\u0002\u0000\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0003\u0000\u0000xl/_rels/workbook.xml.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000)\u0004\u0000\u0000xl/worksheets/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\\u0001l��1\u0003\u0000\u0000d\u000b\u0000\u0000\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000U\u0004\u0000\u0000xl/worksheets/sheet1.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\����n\u0001\u0000\u0000�\u0002\u0000\u0000\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0007\u0000\u0000xl/sharedStrings.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\\\t\u0000\u0000xl/theme/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\v�0�!\u0006\u0000\u0000\u0019\u001f\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\t\u0000\u0000xl/theme/theme1.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\f��V\u001f\u0003\u0000\u0000\u000b\n\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u000f\u0000\u0000xl/styles.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�v�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u001f\u0013\u0000\u0000docProps/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\μVl�\u0001\u0000\u0000#\u0003\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000F\u0013\u0000\u0000docProps/app.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\�b7\u0000_\u0001\u0000\u0000�\u0002\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0014\u0000\u0000docProps/core.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�v�\\�\n��Z\u0001\u0000\u0000q\u0002\u0000\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0016\u0000\u0000xl/workbook.xmlPK\u0005\u0006\u0000\u0000\u0000\u0000\u0010\u0000\u0010\u0000�\u0003\u0000\u0000\u000b\u0018\u0000\u0000\u0000\u0000",
+                    "responseId": "170004553"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 15,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "Update",
+              "api": {
+                "id": "39677009",
+                "method": "put",
+                "path": "/activity-records/1",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "109193983",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully updated selected activity record.\"\r\n}",
+                    "responseId": "109193983"
+                  }
+                ],
+                "requestBody": {
+                  "type": "application/json",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "activity_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "activity_name"
+                    ],
+                    "x-apidog-orders": [
+                      "activity_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"activity_name\": \"Game Idup. Ga Ada yang Menang\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "In case WE need it.",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 24,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "DELETE",
+              "api": {
+                "id": "39687356",
+                "method": "delete",
+                "path": "/admin/activity-records/1",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "130290432",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Selected activity record deleted successfully.\"\r\n}",
+                    "responseId": "130290432"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office (Kembar)\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 45,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            },
+            {
+              "name": "WIPE ALL",
+              "api": {
+                "id": "39687363",
+                "method": "delete",
+                "path": "/admin/activity-records/wipe-all",
+                "parameters": {
+                  "query": [],
+                  "path": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "auth": {},
+                "securityScheme": {},
+                "commonParameters": {
+                  "query": [],
+                  "body": [],
+                  "cookie": [],
+                  "header": []
+                },
+                "responses": [
+                  {
+                    "id": "130290432",
+                    "code": 200,
+                    "name": "",
+                    "headers": [],
+                    "jsonSchema": {
+                      "type": "object",
+                      "properties": {},
+                      "x-apidog-orders": []
+                    },
+                    "itemSchema": {},
+                    "description": "",
+                    "contentType": "json",
+                    "mediaType": ""
+                  }
+                ],
+                "responseExamples": [
+                  {
+                    "name": "Success",
+                    "data": "{\r\n    \"status\": 200,\r\n    \"message\": \"Successfully wiped all activity records data.\"\r\n}",
+                    "responseId": "130290432"
+                  }
+                ],
+                "requestBody": {
+                  "type": "none",
+                  "parameters": [],
+                  "jsonSchema": {
+                    "type": "object",
+                    "properties": {
+                      "location_name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "location_name"
+                    ],
+                    "x-apidog-orders": [
+                      "location_name"
+                    ]
+                  },
+                  "required": false,
+                  "mediaType": "",
+                  "examples": [
+                    {
+                      "value": "{\n    \"location_name\": \"Office (Kembar)\"\n}",
+                      "mediaType": "application/json",
+                      "description": ""
+                    }
+                  ],
+                  "oasExtensions": ""
+                },
+                "description": "",
+                "tags": [],
+                "status": "released",
+                "serverId": "",
+                "operationId": "",
+                "sourceUrl": "",
+                "ordering": 51,
+                "cases": [],
+                "mocks": [],
+                "customApiFields": "{}",
+                "advancedSettings": {
+                  "disabledSystemHeaders": {}
+                },
+                "mockScript": {},
+                "codeSamples": [],
+                "commonResponseStatus": {},
+                "responseChildren": [],
+                "visibility": "INHERITED",
+                "moduleId": 1362453,
+                "oasExtensions": "",
+                "type": "http",
+                "preProcessors": [],
+                "postProcessors": [],
+                "inheritPostProcessors": {},
+                "inheritPreProcessors": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "socketCollection": [],
+  "docCollection": [],
+  "webSocketCollection": [],
+  "socketIOCollection": [],
+  "mcpClientCollection": [],
+  "responseCollection": [],
+  "schemaCollection": [],
+  "securitySchemeCollection": [],
+  "oasComponentCollection": [],
+  "requestCollection": [
+    {
+      "name": "Root",
+      "children": [],
+      "ordering": [
+        "requestFolder.9527144",
+        "requestFolder.9714536"
+      ],
+      "items": []
+    }
+  ],
+  "environments": [
+    {
+      "name": "Prod Env",
+      "requestProxyAgentSettings": {},
+      "variables": [
+        {
+          "name": "token",
+          "value": "",
+          "description": "",
+          "initialValue": "",
+          "isSync": true
+        },
+        {
+          "name": "Authorization",
+          "value": "",
+          "description": "",
+          "initialValue": "",
+          "isSync": true
+        },
+        {
+          "name": "x-kokatto-token",
+          "value": "",
+          "description": "",
+          "initialValue": "",
+          "isSync": true
+        }
+      ],
+      "parameters": {
+        "cookie": [],
+        "query": [],
+        "header": [],
+        "body": []
+      },
+      "type": "normal",
+      "visibility": "protected",
+      "ordering": 0,
+      "tags": [
+        {
+          "name": "",
+          "color": "#9373EE"
+        }
+      ],
+      "advancedSettings": {},
+      "id": "5720655",
+      "baseUrl": "",
+      "baseUrls": {
+        "1113425": "",
+        "1113426": "",
+        "1113427": "",
+        "1113428": "https://asset.abracodebra.com/api",
+        "1113429": "",
+        "1113430": "https://5mk2mpz5-6241.asse.devtunnels.ms",
+        "1113431": "",
+        "1113432": "",
+        "1191385": "https://cloud-drive.denzaphilippines.com/api",
+        "1270013": "https://cloud-trivia.abracodebra.com/api",
+        "1304734": "",
+        "1307889": "https://giias.mazda.co.id/api",
+        "1308002": "https://giias.mazda.co.id/api",
+        "1318140": "https://cloud.opporenoland2026.com/api",
+        "1362453": "https://activity-tracker.abracodebra.com/api"
+      },
+      "socketioBaseUrls": {},
+      "websocketBaseUrls": {
+        "1191385": "wss://cloud-drive.denzaphilippines.com/api",
+        "1270013": "wss://cloud-trivia.abracodebra.com"
+      }
+    }
+  ],
+  "commonScripts": [],
+  "globalVariables": [
+    {
+      "id": "1217961",
+      "variables": []
+    }
+  ],
+  "commonParameters": null,
+  "customFunctions": [],
+  "projectTestCaseCategories": [
+    {
+      "id": 997066,
+      "name": "Positive",
+      "description": "Valid inputs and correct expected results, representing typical usage."
+    },
+    {
+      "id": 997067,
+      "name": "Negative",
+      "description": "Negative, invalid inputs such as missing fields, wrong types, unsupported methods, etc."
+    },
+    {
+      "id": 997068,
+      "name": "Boundary",
+      "description": "Extreme or edge conditions, such as maximum string length, empty values, zero, null, etc."
+    },
+    {
+      "id": 997069,
+      "name": "Security",
+      "description": "Test cases that may expose API security risks."
+    },
+    {
+      "id": 997070,
+      "name": "Other",
+      "description": "Test cases not classified under existing categories."
+    }
+  ],
+  "projectTestCaseTags": [
+    {
+      "id": 3877338,
+      "name": "Required Fields Only",
+      "description": "Send only the required fields with valid values, omitting all optional fields, to test minimal valid requests."
+    },
+    {
+      "id": 3877339,
+      "name": "Valid Semantic",
+      "description": "Use values that are syntactically correct and also make sense in the business logic or domain context."
+    },
+    {
+      "id": 3877340,
+      "name": "Enum Combination Coverage",
+      "description": "For all enum-type parameters, apply orthogonal design to systematically construct test case combinations of parameters and their enum values, dedicated to testing enum coverage."
+    },
+    {
+      "id": 3877341,
+      "name": "Other Positive Case",
+      "description": "Provide realistic and valid inputs that match the API specification, producing the correct and expected result."
+    },
+    {
+      "id": 3877342,
+      "name": "Missing Required Fields",
+      "description": "Omit one or more required fields in the request body or parameters."
+    },
+    {
+      "id": 3877343,
+      "name": "Invalid Values",
+      "description": "Provide values that are within the correct type and format, but logically invalid for the field."
+    },
+    {
+      "id": 3877344,
+      "name": "Type Errors",
+      "description": "Use values with incorrect data types, such as sending a string instead of an integer."
+    },
+    {
+      "id": 3877345,
+      "name": "Format Errors",
+      "description": "Provide values in an incorrect format, e.g., wrong date pattern, malformed email address."
+    },
+    {
+      "id": 3877346,
+      "name": "Semantic Errors",
+      "description": "Use syntactically correct and properly formatted values that are logically impossible or violate domain rules."
+    },
+    {
+      "id": 3877347,
+      "name": "Other Negative Case",
+      "description": "Provide invalid or unexpected inputs that should trigger error handling or rejection by the API."
+    },
+    {
+      "id": 3877348,
+      "name": "Null",
+      "description": "Must be the JSON literal `null` (not empty, not \"null\")."
+    },
+    {
+      "id": 3877349,
+      "name": "Zero",
+      "description": "Must be the numeric literal 0."
+    },
+    {
+      "id": 3877350,
+      "name": "Empty Values",
+      "description": "Must be \"\"."
+    },
+    {
+      "id": 3877351,
+      "name": "Max Values",
+      "description": "Provide the exact minimum and maximum allowed values for numeric or date fields."
+    },
+    {
+      "id": 3877352,
+      "name": "Min Values",
+      "description": "Provide the exact minimum and maximum allowed values for numeric or date fields."
+    },
+    {
+      "id": 3877353,
+      "name": "Overflow",
+      "description": "Provide values just beyond the allowed minimum or maximum boundaries."
+    },
+    {
+      "id": 3877354,
+      "name": "Underflow",
+      "description": "Provide values just beyond the allowed minimum or maximum boundaries."
+    },
+    {
+      "id": 3877355,
+      "name": "Overly Long Strings",
+      "description": "Provide strings longer than the maximum allowed length, or shorter than the minimum required length."
+    },
+    {
+      "id": 3877356,
+      "name": "Overly Short Strings",
+      "description": "Provide strings longer than the maximum allowed length, or shorter than the minimum required length."
+    },
+    {
+      "id": 3877357,
+      "name": "Broken Object Level Authorization",
+      "description": "Users access or manipulate data objects without proper authorization."
+    },
+    {
+      "id": 3877358,
+      "name": "Access Control",
+      "description": "Restricting resources and actions users can access based on roles, permissions, or attributes."
+    },
+    {
+      "id": 3877359,
+      "name": "Auth Failures",
+      "description": "Authentication is weak, misconfigured, or bypassed, allowing unauthorized access."
+    },
+    {
+      "id": 3877360,
+      "name": "SQL Injection",
+      "description": "Insert malicious SQL code into input fields to test for SQL injection vulnerabilities."
+    },
+    {
+      "id": 3877361,
+      "name": "XSS Injection",
+      "description": "Inject JavaScript or HTML tags to test for cross-site scripting vulnerabilities."
+    },
+    {
+      "id": 3877362,
+      "name": "Fuzzy Input",
+      "description": "Send large or randomly generated payloads to test input validation and stability."
+    },
+    {
+      "id": 3877363,
+      "name": "Command Injection",
+      "description": "Insert shell commands into inputs to test for command execution vulnerabilities."
+    },
+    {
+      "id": 3877364,
+      "name": "JSON Injection",
+      "description": "Insert malicious or unexpected JSON structures to test parsing and validation."
+    },
+    {
+      "id": 3877365,
+      "name": "NoSQL Injection",
+      "description": "Provide NoSQL-specific malicious queries or operators to test for injection vulnerabilities."
+    },
+    {
+      "id": 3877366,
+      "name": "Other",
+      "description": "Test cases not classified under existing categories."
+    }
+  ],
+  "projectAssociations": [],
+  "moduleSettings": [
+    {
+      "id": "1362453",
+      "name": "Activity Tracker",
+      "description": "",
+      "moduleVariables": [],
+      "openApiInfo": {}
+    }
+  ]
+}
